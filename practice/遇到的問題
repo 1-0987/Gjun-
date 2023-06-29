@@ -1,3 +1,10 @@
 # work space : 檔案 > 將資料夾新增至work space
 # 快速複製路徑 .\ 鍵入前面幾位英文
 # first commit? 自己看得懂即可 用git log 去看
+
+; 方法
+; PS C:\Users\ASUS\Desktop\Python> git add .\practice\binary\
+; PS C:\Users\ASUS\Desktop\Python> git commit -m 'Second commit'
+
+
+practice_3.2.py (如何寫major_element的計數) => practice 3.3 + tuple 運算實例
