@@ -37,7 +37,7 @@ class Chicken(Poultry):  #繼承
         super().__init__(color, sound, "Chicken")
 
     def morning_call(self, time):
-        print(f"{self.sound*3}, It's{time} am now!")
+        print(f"{self.sound*3}, It's{time} am now!.....")
 
     def eat(self):
         print(f"{self.specy} eat sworm.")
