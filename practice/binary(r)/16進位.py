@@ -10,4 +10,5 @@ while c > 1:
     hexa_string = str(remainder) + hexa_string
     print(f"c = {c}, r = {remainder}, bs = {hexa_string}")
 binary_string = str(c) + hexa_string
-print("hexa_string:", hexa_string)
+print("hexa_string:!!!", hexa_string)
+
