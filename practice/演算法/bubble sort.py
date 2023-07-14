@@ -1,4 +1,4 @@
-import numpy as np 
+import numpy as np
 n = 6
 # bubbles = np.random.randint(1, 10, n)
 # print(list(bubbles))
@@ -11,6 +11,7 @@ print(list(bubbles))
 for round, _ in enumerate(bubbles):
     for index, _ in enumerate(bubbles):
         if index < n - round - 1: #5-r
+            # print("index:", index)
             print(f"Round:{round}, i:{bubbles[index]}, j:{bubbles[index + 1]}")
             print(f"Bubbles before: {bubbles}")
             if bubbles[index] > bubbles[index + 1]:
