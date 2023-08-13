@@ -1,0 +1,17 @@
+pip install virtualenv
+python -m venv gjun_python #gjun_python可代換  (只需要建一次) (debug: virtualenv venv <-- ##虛擬環境名稱## -p python3.9 ##版本##)
+.\gjun_python\Scripts\Activate.ps1 #gjun_python可代換
+# 範例 PS C:\Users\ASUS\Desktop\web_crawler\web_crawler_env> cd ..
+# 範例 PS C:\Users\ASUS\Desktop\web_crawler> .\web_crawler_env\Scripts\Activate.ps1
+
+pip list #查詢目前插件
+pip freeze > requirements.txt #一般open source會用虛擬環境寫程式，從git hub下載後需要將requirement\
+中列出的套件下載就可以使用程式
+deactivate #離開虛擬環境
+pip install -r requirements.txt #重建python環境
+
+#爬蟲
+python install beautifulsoup4
+
+
+
